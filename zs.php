@@ -54,3 +54,5 @@ class FooBar extends Base implements FooBarInterface
         return false;
     }
 }
+
+$args = func_num_args();
