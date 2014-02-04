@@ -28,3 +28,4 @@ function isEmpty() {
     // TASK: refactor
     return index == 0;
 }
+
