@@ -24,6 +24,10 @@ function test($test) {
     return false;
 }
 
+if (is_array($foo)) {
+    $foo = (object) $foo;
+}
+
 trait A {
     public $foo;
 
